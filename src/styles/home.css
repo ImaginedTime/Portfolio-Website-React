@@ -1,0 +1,105 @@
+#home .part1 {
+    height: 100vh;
+    background-image: url('./bg2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .part2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.home-container {
+    text-align: center;
+    color: white;
+}
+
+.home-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+
+}
+
+.home-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.home-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+}
+
+.home-container .btn:hover {
+    background-color: #FFBD39;
+    color: black;
+    cursor: pointer;
+}
+
+.home-left {
+    width: 50%;
+    text-align: center;
+}
+
+.home-left img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.home-right {
+    width: 50%;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.home-right h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home-right p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    #home h1 {
+        font-size: 24px;
+    }
+
+    #home p {
+        font-size: 16px;
+    }
+
+    #home .part2 {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .home-left {
+        width: 100%;
+    }
+
+    .home-right {
+        width: 100%;
+    }
+
+    .home-right p {
+        margin-bottom: 10px;
+    }
+}
