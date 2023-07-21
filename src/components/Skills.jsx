@@ -47,20 +47,20 @@ export default function Skills() {
             experience: "2",
             description: "I use C/C++ for Competitive Programming, and have been using it for about 2 year or so",
         },
-        // {
-        //     img: "images/react.svg",
-        //     alt: "React",
-        //     title: "React",
-        //     experience: "1",
-        //     description: "I have been using React for about a year now, and have made many projects using it",
-        // },
-        // {
-        //     img: "images/node.svg",
-        //     alt: "Node",
-        //     title: "Node",  
-        //     experience: "1",
-        //     description: "I have been using Node for about a year now, and have made many projects using it",
-        // },
+        {
+            img: "images/react-js.png",
+            alt: "React JS",
+            title: "React JS",
+            experience: "1",
+            description: "I have been using React JS for about a year now, and have made many projects using it",
+        },
+        {
+            img: "images/git-github.png",
+            alt: "Git/Github",
+            title: "Git/Github",  
+            experience: "1",
+            description: "I use git/github for the version control and collaboration for my projects",
+        },
     ]
 
     return (
