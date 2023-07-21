@@ -6,25 +6,11 @@ export default function Skills() {
 
     const skillsData = [
         {
-            img: "./images/html.svg",
-            alt: "HTML",
-            title: "HTML",
-            experience: "3",
-            description: "For the frontend markup part of Web Development",
-        },
-        {
-            img: "./images/css.svg",
-            alt: "CSS",
-            title: "CSS",
-            experience: "3",
-            description: "For the frontend styling part of Web Development",
-        },
-        {
-            img: "./images/js.svg",
-            alt: "JS",
-            title: "JS",
-            experience: "3",
-            description: "For the frontend functionality part of Web Development",
+            img: "images/react-js.png",
+            alt: "React JS",
+            title: "React JS",
+            experience: "1",
+            description: "I have been using React JS for about a year now, and have made many projects using it",
         },
         {
             img: "./images/java.svg",
@@ -48,11 +34,25 @@ export default function Skills() {
             description: "I use C/C++ for Competitive Programming, and have been using it for about 2 year or so",
         },
         {
-            img: "images/react-js.png",
-            alt: "React JS",
-            title: "React JS",
-            experience: "1",
-            description: "I have been using React JS for about a year now, and have made many projects using it",
+            img: "./images/js.svg",
+            alt: "JS",
+            title: "JS",
+            experience: "3",
+            description: "For the frontend functionality part of Web Development",
+        },
+        {
+            img: "./images/html.svg",
+            alt: "HTML",
+            title: "HTML",
+            experience: "3",
+            description: "For the frontend markup part of Web Development",
+        },
+        {
+            img: "./images/css.svg",
+            alt: "CSS",
+            title: "CSS",
+            experience: "3",
+            description: "For the frontend styling part of Web Development",
         },
         {
             img: "images/git-github.png",
